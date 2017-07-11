@@ -1,0 +1,21 @@
+
+;<Program title>
+
+jmp start
+
+;data
+
+
+;code
+start: nop
+
+	lxi h,8500
+	mov c,m
+	mvi d,00
+	inx h	
+	mov a,m
+	add c
+	daa
+	jnc next
+	inr d
+next:  hlt

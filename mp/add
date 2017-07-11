@@ -1,0 +1,10 @@
+
+
+MVI A, 2
+MVI B, 5
+ADD B
+
+
+
+
+hlt

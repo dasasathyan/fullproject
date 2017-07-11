@@ -1,0 +1,27 @@
+
+;<Program title>
+
+jmp start
+
+;data
+
+
+;code
+start: nop
+LXI H,8500
+MOV C,M
+INX H
+MOV D,M
+INX H
+MOV E,M
+MOV A,D
+BACK: ADD E
+DAA
+MOV D,E
+MOV E,A
+INX H
+MOV M,A
+MOV A,D
+DCR C
+JNZ BACK
+hlt

@@ -1,0 +1,11 @@
+
+MVI B FF
+loop MVI C FF
+back DCR C 
+JNZ back
+DCR B
+JNZ loop
+RET
+
+
+hlt

@@ -1,0 +1,26 @@
+
+;<Program title>
+
+jmp start
+
+;data
+
+
+;code
+start: nop
+MVI A, 00H
+STA 8000H
+MVI A, 01H
+STA 8001H
+MVI B, 07
+LXI H, 8000H
+BACK: MOV A, M
+INX H
+ADD M
+DAA
+INX H
+MOV M, A
+DCR B
+DCX H
+JNZ BACK
+HLT

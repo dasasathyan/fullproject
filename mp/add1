@@ -1,0 +1,17 @@
+
+;<Program title>
+
+jmp start
+
+;data
+
+
+;code
+start: nop
+LXI H, 4000H
+MOV A, M    
+INX H       
+ADD M       
+INX H       
+MOV M, A    
+hlt

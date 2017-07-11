@@ -1,0 +1,51 @@
+div.head {
+
+ width: 25%;
+
+}
+img.logo {
+  width: 189px;
+  height: 34px;
+  float: left;
+}
+div.main {
+  float: right;
+  width: 75%
+}
+ul.main {
+  list-style-type: none;
+  float: right;
+    }
+li{ display: inline;
+}
+div.h1.topic {
+  text-align: center;
+  padding: 30px;
+  }
+.slogan {
+  text-align: center;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  img{
+    width:110px;
+    height:110px;
+  }
+  div.ruby{
+    border-style: solid;
+    border-right: -800px;
+  }
+  p.def{
+    width: 280px;
+    height: 405px;
+  }

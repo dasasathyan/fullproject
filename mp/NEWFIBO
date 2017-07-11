@@ -1,0 +1,21 @@
+
+;<Program title>
+
+jmp start
+
+;data
+
+
+;code
+start: nop
+
+MVI D, 05
+MVI B, 00 
+MVI C, 01 
+MOV A, B 
+BACK: ADD C 
+MOV B, C 
+MOV C, A 
+DCR D 
+JNZ BACK
+HLT 
